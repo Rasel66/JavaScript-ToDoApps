@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+    width: 90%;
+    padding: 10px;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type="submit"]{
+    font-weight: bold;
+    width: 100%;
+    background-color: brown;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+}
+.main-class{
+    width: 45%;
+    margin-left: 30px;
+    float: left;
+}
+tr>th{
+    background-color: rgb(12, 65, 65);
+    color: white;
+}
+td{
+    background-color: rgb(26, 58, 89);
+    color: white;
+}
